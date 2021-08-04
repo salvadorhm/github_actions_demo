@@ -16,3 +16,4 @@ def test_multiplicacion():
 def test_division():
     assert op.division(3,4) == 0.75
     assert op.division(10,4) == 2.5
+    assert op.division(10,0) == None
