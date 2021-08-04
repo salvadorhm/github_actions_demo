@@ -17,3 +17,8 @@ def test_division():
     assert op.division(3,4) == 0.75
     assert op.division(10,4) == 2.5
     assert op.division(10,0) == None
+
+def test_mayor():
+    assert op.mayor(3,4) == 4 # valida el primer numero
+    assert op.mayor(10,4) == 10 # valida el segundo numero
+    assert op.mayor(4,4) == "iguales" # valida que sean iguales
